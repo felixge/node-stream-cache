@@ -11,6 +11,6 @@ var fs          = require('fs');
 var cache = new StreamCache();
 fs.createReadStream(__filename).pipe(cache);
 
-# Cache can now be piped anywhere, even before the readable stream finishes.
+// Cache can now be piped anywhere, even before the readable stream finishes.
 cache.pipe(process.stdout);
 ```
