@@ -3,7 +3,11 @@
   "name": "stream-cache",
   "description": "A simple way to cache and replay readable streams.",
   "version": "0.0.1",
+  "license": "MIT",
   "homepage": "https://github.com/felixge/node-stream-cache",
+  "bugs": "https://github.com/felixge/node-stream-cache/issues",
+  "keywords": ["node", "cache", "streams"],
+  "contributors": [],
   "repository": {
     "type": "git",
     "url": "git://github.com/felixge/node-stream-cache.git"
