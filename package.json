@@ -12,6 +12,9 @@
   "engines": {
     "node": ">= 0.9.4"
   },
+  "scripts": {
+    "test": "node test/all.js"
+  },
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {}
